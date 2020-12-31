@@ -6,7 +6,7 @@ import com.pokemon.Pokemon;
 import java.util.ArrayList;
 
 public class Pokedex extends AbstractPokemon {
-    public ArrayList<Pokemon> myPokemons= new ArrayList<>();
+    public ArrayList<Pokemon> myPokemons= new ArrayList<Pokemon>();
 
     public void addPokemon(Pokemon pokemon){
         myPokemons.add(pokemon);
